@@ -6,6 +6,12 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>jenkins_pipeline_java_maven_1</name>
 	<description>For TTFHW of Jenkinsfile within a java project</description>
+	 <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+  <profiles>  
 	<build>
    <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
